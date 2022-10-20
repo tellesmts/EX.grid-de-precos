@@ -46,19 +46,21 @@
 }
 
 .caixinha1{
+    justify-items: start;
     background-color: #239593;
     width: 300px;
     height: 250px;
 	border-radius: 0 0 0 7px;
-
-
+	padding: 25px 35px 5px 35px;
 }
 
 .caixinha2{
     background-color: #1ebfa8;
-    width: 300px;
+    max-width: 300px;
     height: 250px;
 	border-radius: 0 0 7px 0;
+	color: white;
+	padding: 25px 35px 5px 35px;
 
 }
 
@@ -87,4 +89,85 @@
 @font-face {
   font-family: Karla-regular;
   src: url(../Karla-regular.ttf)
+}
+
+.texto{
+    width: 250px;
+    height: 200px;
+    border: solid black 1px;
+}
+
+#cx1{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin: 0:
+    
+}
+
+#cx2{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin: 0;
+    
+}
+
+#cx3{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0;
+    margin: 0;
+    
+}
+
+#cx4{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+#permonth{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Karla-Light;
+}
+
+#signup{
+    color: white;
+    background-color:  #C0DF34;
+    width: 210px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Karla-regular;
+    border: 0;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    border-radius: 4px;
+    
+    
+}
+
+#why{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin: 0:
+    
+}
+
+#tutorial{
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 0;
+    margin: 0:
+    
 }
