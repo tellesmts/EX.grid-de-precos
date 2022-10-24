@@ -98,11 +98,12 @@
 }
 
 #cx1{
+    padding: 20px 0 0 0;
     color: white;
     font-weight: 700;
     font-size: 17px;
     letter-spacing: 0;
-    margin: 0:
+    margin: 0;
     
 }
 
@@ -120,7 +121,7 @@
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 0;
-    margin: 0;
+    margin: 0 10px 0 0;
     
 }
 
@@ -131,11 +132,16 @@
     letter-spacing: 0px;
 }
 
+.preco{
+    display: flex;
+}
+
 #permonth{
     color: white;
     font-weight: 100;
     font-size: 14px;
     font-family: Karla-Light;
+    justify-content: right;
 }
 
 #signup{
@@ -159,7 +165,8 @@
     font-weight: 700;
     font-size: 17px;
     letter-spacing: 0;
-    margin: 0:
+    margin: 0;
+    padding: 20px 0 0 0;
     
 }
 
@@ -168,6 +175,6 @@
     font-weight: 100;
     font-size: 13px;
     letter-spacing: 0;
-    margin: 0:
+    margin: 0;
     
 }
